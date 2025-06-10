@@ -19,7 +19,7 @@ A modern React Native app for browsing, viewing, and bookmarking job listings wi
 
 | Jobs Screen                        | Job Details                                  | Bookmarks                                    |
 | ---------------------------------- | -------------------------------------------- | -------------------------------------------- |
-| ![Jobs](./assets/screens/jobs.png) | ![Details](./assets/screens/job-details.png) | ![Bookmarks](./assets/screens/bookmarks.png) |
+| ![Jobs](./assets/screens/jobs.png) | ![Image](https://github.com/user-attachments/assets/883ab4e4-8a48-4cfe-bc58-afc7e45979a0)| ![Bookmarks](./assets/screens/bookmarks.png) |
 ![Image](https://github.com/user-attachments/assets/e6f08d61-466b-454b-9627-5178a69d8f6e)
 
 ![Image](https://github.com/user-attachments/assets/c7e3f936-5dfd-4d75-9066-a99c8b907707)
