@@ -1,7 +1,25 @@
-JobSearchApp
-A sleek React Native app for browsing, viewing, and bookmarking job listings with a modern UI.
-Features
-Images 
+
+# JobSearchApp
+
+A modern React Native app for browsing, viewing, and bookmarking job listings with an intuitive UI.
+
+## 🌟 Features
+
+* 📋 Browse paginated job listings from an external API
+* ℹ️ View detailed job info (location, salary, shift, etc.)
+* ⭐ Bookmark jobs locally using AsyncStorage
+* 🧭 Bottom tab navigation for Jobs and Bookmarks
+* ✨ Shimmer loading placeholders
+* 📞 Contact employers via phone or WhatsApp
+* 🚫 Handle errors and empty states gracefully
+
+---
+
+## 🖼️ Screenshots
+
+| Jobs Screen                        | Job Details                                  | Bookmarks                                    |
+| ---------------------------------- | -------------------------------------------- | -------------------------------------------- |
+| ![Jobs](./assets/screens/jobs.png) | ![Details](./assets/screens/job-details.png) | ![Bookmarks](./assets/screens/bookmarks.png) |
 ![Image](https://github.com/user-attachments/assets/e6f08d61-466b-454b-9627-5178a69d8f6e)
 
 ![Image](https://github.com/user-attachments/assets/c7e3f936-5dfd-4d75-9066-a99c8b907707)
@@ -12,66 +30,103 @@ Images
 
 ![Image](https://github.com/user-attachments/assets/d81a39ba-5b53-4bad-9ade-fa3d82b23075)
 
-Browse jobs from an external API
-View detailed job info (location, salary, etc.)
-Bookmark jobs locally with AsyncStorage
-Bottom tab navigation (Jobs & Bookmarks)
-Shimmer loading effects
-Contact employers via phone/WhatsApp
-Error handling & empty states
 
-Installation
 
-Clone the repo:
-git clone <repository-url>
+---
+
+## 🚀 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/JobSearchApp.git
 cd JobSearchApp
+```
 
+2. **Install dependencies:**
 
-Install dependencies:
+```bash
 npm install
+```
 
+3. **Set up your environment:**
+   Follow the [React Native setup guide](https://reactnative.dev/docs/environment-setup) for Expo.
 
-Set up React Native environment (guide).
+4. **Run the app:**
 
-Start the app:
+```bash
 npm start
+```
 
+Then use Expo Go or a simulator:
 
+```bash
+npm run ios
+npm run android
+```
 
-Usage
+---
 
-Jobs: Browse and refresh job listings, tap for details.
-Bookmarks: View/remove saved jobs.
-Details: See job info, contact employers, toggle bookmarks.
+## 📱 Usage
 
-Dependencies
+* **Jobs Screen**: Browse jobs, pull to refresh, or tap for details.
+* **Bookmarks Screen**: View or remove saved jobs.
+* **Job Details**: Check job info, contact employers, or toggle bookmarks.
 
-react-native
-@react-navigation/native, bottom-tabs, stack
-react-native-paper
-@expo/vector-icons
-axios
-@react-native-async-storage/async-storage
-react-native-gesture-handler
+---
 
-Install:
-npm install react-native @react-navigation/native @react-navigation/bottom-tabs @react-navigation/stack react-native-paper @expo/vector-icons axios @react-native-async-storage/async-storage react-native-gesture-handler
+## 📦 Dependencies
 
-Structure
+Key libraries used:
+
+```bash
+npm install react-native \
+  @react-navigation/native \
+  @react-navigation/bottom-tabs \
+  @react-navigation/stack \
+  react-native-paper \
+  @expo/vector-icons \
+  axios \
+  @react-native-async-storage/async-storage \
+  react-native-gesture-handler
+```
+
+---
+
+## 🗂️ Project Structure
+
+```
 JobSearchApp/
-├── components/         # UI components (JobCard, DetailItem, etc.)
-├── navigation/         # AppNavigator for tabs & stacks
-├── screens/            # Jobs, Bookmarks, JobDetails screens
-├── styles/             # Centralized styles
-├── utils/              # Bookmark storage utils
+├── components/         # UI components (JobCard, DetailItem, ShimmerPlaceholder)
+├── navigation/         # Bottom tab and stack navigation
+├── screens/            # JobsScreen, BookmarksScreen, JobDetailsScreen
+├── styles/             # Centralized styles (styles.js)
+├── utils/              # Bookmark storage utilities
+├── assets/screens/     # Screenshots/images for README
 ├── App.js              # App entry point
-└── README.md
+└── README.md           # Project documentation
+```
 
-Notes
+---
 
-Uses https://testapi.getlokalapp.com/common/jobs API.
-Styles in styles/styles.js for consistency.
-Bookmarks persist via AsyncStorage.
+## 📝 Notes
 
-License
-MIT License
+* **API**: Fetches data from `https://testapi.getlokalapp.com/common/jobs`. Ensure API availability or replace with your endpoint.
+* **Styling**: Centralized in `styles/styles.js` for maintainability.
+* **Storage**: Bookmarks persist locally via AsyncStorage.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Let me know if you'd like me to create those image placeholders or set up your actual folder/files.
