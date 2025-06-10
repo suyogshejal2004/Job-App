@@ -121,10 +121,6 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.
 
----
 
-Let me know if you'd like me to create those image placeholders or set up your actual folder/files.
